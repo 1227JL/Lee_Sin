@@ -1,0 +1,218 @@
+body {
+    display: flexbox;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Tahoma";
+}
+
+#header {
+    margin: auto;
+    width: 600px;
+    font-family: "Tahoma";
+    font-size: 16pt;
+    position: sticky;
+    top: 0px;
+    z-index: 12;
+    
+
+}
+
+.fondoheader {
+    background-color:#AB9032;
+    top: 0px;
+    height: 46px;
+    display: block;
+    position: sticky;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+.nav li a {
+    background-color: #AB9032;
+    color:black;
+    text-decoration: none;
+    padding: 10px 28px;
+    display:block;
+}
+
+.nav > li {
+    float: left;
+}
+
+.nav li a:hover {
+    background-color: #9b832c;
+}
+
+.nav li ul {
+    display:none;
+    position: absolute;
+    min-width: 140px;
+
+}
+
+.nav li:hover > ul{
+    display: block;
+    display: ruby-text-container;
+}
+
+/* CSS DE LOS SUBTITULOS DE LOS SUBTITULOS */
+    
+    .nav li ul li{
+        position: relative;
+    }
+
+    .nav li ul li ul {
+        right: -140px;
+        top: 0px;
+    }
+    
+/* CIERRO CSS */
+
+    h2 {
+        font-family: "Tahoma";
+    }
+
+
+.sheet_wiki {
+    width: 1010px;
+    height: 700px;
+    margin-left: -235px;
+    background-image: url(../../../../../IMGS/Plataforma_champions.jpg);
+    background-size: cover;
+
+}
+ 
+
+
+#img {
+    height: 500px;
+    margin-left: 270px;
+    margin-top: 30px;
+}
+
+.Habilidades {
+    display: flex;
+    flex-direction: column;
+    margin-left: 900px;
+    margin-top: -460px;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.Pasiva, .Q, .W, .E, .R {
+    height: 64px;
+    width: 64px;
+    margin-top: 20px;
+    border: 4px solid black;
+}
+
+.Pasiva .IMG1:hover, .Q .IMG2:hover, .W .IMG3:hover, .E .IMG4:hover, .R .IMG5:hover {
+    border: 4px solid rgb(0, 0, 0);
+    display: block;
+    
+}
+
+.Pasiva #D1 {
+    display: none;
+    margin: -230px;
+    margin-top: 50px;
+    height: 200px;
+    border: 4px solid black;
+
+}
+
+.Pasiva .IMG1:hover ~ #D1 {
+    display: block;    
+}
+
+.Pasiva #V1 {
+    display: none;
+    margin-left: 300px;
+    margin-top: 22px;
+    height: 209px;
+    
+    
+}
+
+.Pasiva .IMG1:hover ~ #V1 {
+    display: block;   
+}
+
+.Q #D2 {
+    display: none;
+    margin: -300px;
+    margin-top: 50px;
+    height: 200px;
+    border: 4px solid black;
+
+}
+
+.Q .IMG2:hover ~ #D2  {
+    display: block;
+    
+    
+}
+
+.Q #V2 {
+    display: none;
+    margin-left: 300px;
+    margin-top: 22px;
+    height: 209px;
+    
+}
+
+.Q .IMG1:hover ~ #V2 {
+    display: block;   
+}
+
+.W #D3 {
+    display: none;
+    margin: -382px;
+    margin-top: 50px;
+    height: 200px;
+    border: 4px solid black;
+
+}
+
+.W .IMG3:hover ~ #D3  {
+    display: block;
+    
+    
+}
+
+.E #D4 {
+    display: none;
+    margin: -466px;
+    margin-top: 50px;
+    height: 200px;
+    border: 4px solid black;
+
+}
+
+.E .IMG4:hover ~ #D4  {
+    display: block;
+    
+    
+}
+
+.R #D5 {
+    display: none;
+    margin: -543px;
+    margin-top: 50px;
+    height: 200px;
+    border: 4px solid black;
+
+}
+
+.R .IMG5:hover ~ #D5  {
+    display: block;
+    
+    
+}
+
+

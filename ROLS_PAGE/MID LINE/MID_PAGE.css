@@ -1,0 +1,76 @@
+
+*{
+   padding: 0px;
+   margin: 0px;
+}
+
+#header {
+   margin: auto;
+   width: 215px;
+   font-family: "Tahoma";
+   font-size: 16pt;
+   position: sticky;
+   top: 0px;
+   
+
+}
+
+.fondoheader {
+   background-color:#79d0b6;
+   top: 0px;
+   height: 46px;
+   display: block;
+   position: sticky;
+}
+
+ul, ol{
+   list-style: none;
+}
+
+.nav li a {
+   background-color: #79d0b6;
+   color:black;
+   text-decoration: none;
+   padding: 10px 28px;
+   display:block;
+}
+
+.nav > li {
+   float: left;
+}
+
+.nav li a:hover {
+   background-color: #71c3aa;
+}
+
+.nav li ul {
+   display:none;
+   position: absolute;
+   min-width: 140px;
+
+}
+
+.nav li:hover > ul{
+   display: block;
+}
+
+/* CSS DE LOS SUBTITULOS DE LOS SUBTITULOS */
+   
+   .nav li ul li{
+       position: relative;
+   }
+
+   .nav li ul li ul {
+       right: -140px;
+       top: 0px;
+   }
+   
+/* CIERRO CSS */
+
+   h2 {
+       font-family: "Tahoma";
+   }
+
+.Champions {
+   padding: 50px;
+}
