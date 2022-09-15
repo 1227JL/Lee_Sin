@@ -21,6 +21,7 @@ body {
 }
 
 .fondoheader {
+    width: 100vw ;
     background-color:#AB9032;
     top: 0px;
     height: 46px;
@@ -78,30 +79,45 @@ ul, ol{
     }
 
 
-.sheet_wiki {
-    width: 1010px;
-    height: 700px;
-    margin-left: -235px;
-    background-image: url(../../../../../IMGS/Plataforma_champions.jpg);
-    background-size: cover;
+
+.structure {
+    width: 90vw;
+    height: 100vh;
+    display: flex
 
 }
- 
+
+.sheet_wiki {
+    width: 1150px;
+    height: 100vh;
+    margin-left: -270px;
+    background-image: url(../../../../../IMGS/Plataforma_champions.jpg);
+    background-size: cover;
+    margin-bottom: 0px;
+
+}
+
+.sheet_wiki2 {
+    height: 100vh;
+    width: 54.5vw;
+    background-image: url(../../../../../IMGS/FONDO\ DESCIPCION\ Y\ VIDEO\ DE\ HABILIDAD.png);
+}
 
 
 #img {
-    height: 500px;
-    margin-left: 270px;
-    margin-top: 30px;
+    height: 400px;
+    margin-left: 342px;
+    margin-top: 100px;
 }
+
 
 .Habilidades {
     display: flex;
     flex-direction: column;
-    margin-left: 900px;
-    margin-top: -460px;
     text-align: center;
     justify-content: space-around;
+    margin-left: 20px;
+    margin-top: 80px;
 }
 
 .Pasiva, .Q, .W, .E, .R {
@@ -119,52 +135,41 @@ ul, ol{
 
 .Pasiva #D1 {
     display: none;
-    margin: -230px;
-    margin-top: 50px;
+    margin: 156px;
+    margin-top: -120px;
     height: 200px;
     border: 4px solid black;
-
 }
 
 .Pasiva .IMG1:hover ~ #D1 {
     display: block;    
-}
-
-.Pasiva #V1 {
-    display: none;
-    margin-left: 300px;
-    margin-top: 22px;
-    height: 209px;
     
-    
-}
-
-.Pasiva .IMG1:hover ~ #V1 {
-    display: block;   
 }
 
 .Q #D2 {
     display: none;
-    margin: -300px;
-    margin-top: 50px;
+    margin: 156px;
+    margin-top: -212px;
     height: 200px;
     border: 4px solid black;
-
 }
 
 .Q .IMG2:hover ~ #D2  {
     display: block;
-    
-    
+}
+
+.Q .IMG2:hover ~ #V2 {
+    display: block;   
 }
 
 .Q #V2 {
     display: none;
-    margin-left: 300px;
-    margin-top: 22px;
+    margin-left: 250px;
+    margin-top: -100px;
     height: 209px;
-    
+    border: 4px solid #9b832c;
 }
+
 
 .Q .IMG1:hover ~ #V2 {
     display: block;   
@@ -172,11 +177,10 @@ ul, ol{
 
 .W #D3 {
     display: none;
-    margin: -382px;
-    margin-top: 50px;
+    margin: 156px;
+    margin-top: -212px;
     height: 200px;
     border: 4px solid black;
-
 }
 
 .W .IMG3:hover ~ #D3  {
@@ -187,11 +191,10 @@ ul, ol{
 
 .E #D4 {
     display: none;
-    margin: -466px;
-    margin-top: 50px;
+    margin: 156px;
+    margin-top: -212px;
     height: 200px;
     border: 4px solid black;
-
 }
 
 .E .IMG4:hover ~ #D4  {
@@ -202,17 +205,14 @@ ul, ol{
 
 .R #D5 {
     display: none;
-    margin: -543px;
-    margin-top: 50px;
+    margin: 156px;
+    margin-top: -212px;
     height: 200px;
     border: 4px solid black;
-
 }
 
 .R .IMG5:hover ~ #D5  {
     display: block;
-    
-    
 }
 
 
